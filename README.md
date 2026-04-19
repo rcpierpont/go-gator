@@ -18,7 +18,7 @@ Dependencies:
 - goose installed (for running migrations to set up database, located in gator/sql/schema)
 - config file in home directory named ".gatorconfig.json"
     - file should contain a single json object with two key/value pairs, representing connection string for postgres db and current logged in user (starting as empty string)
-    - this can be copy/pasted into an empty file as a template: {"db_url":"postgres://username:password@localhost:5432/gator?sslmode=disable","current_user_name":"ryan"}
+    - this can be copy/pasted into an empty file as a template: {"db_url":"postgres://username:password@localhost:5432/gator?sslmode=disable","current_user_name":""}
 
 
 
